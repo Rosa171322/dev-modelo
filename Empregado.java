@@ -20,8 +20,38 @@ public class Empregado {
         else{
             return 0.;
         }
-    }
+    } 
        
+
+    public double getSalario() {
+        return salario;
+    }
+
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+
+    public double getComissao() {
+        return comissao;
+    }
+
+
+    public void setComissao(double comissao) {
+        this.comissao = comissao;
+    }
+
+
+    public double getBonus() {
+        return bonus;
+    }
+
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
 
     public String getNome() {
         return nome;
@@ -44,4 +74,4 @@ public class Empregado {
         this.tipo = tipo;
     }
 
-}
+  }
