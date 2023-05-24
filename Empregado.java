@@ -8,6 +8,26 @@ public class Empregado {
     private int matricula;
     private String chapa;
     
+    public int getMatricula() {
+        return matricula;
+    }
+
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+
+    public String getChapa() {
+        return chapa;
+    }
+
+
+    public void setChapa(String chapa) {
+        this.chapa = chapa;
+    }
+
+
     public double calculaSalario (){
         if (tipo == 1){
             return salario;
