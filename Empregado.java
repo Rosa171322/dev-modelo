@@ -5,7 +5,9 @@ public class Empregado {
     private double salario;
     private double comissao;
     private double bonus;
-
+    private int matricula;
+    private String chapa;
+    
     public double calculaSalario (){
         if (tipo == 1){
             return salario;
